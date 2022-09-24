@@ -1,12 +1,12 @@
 :root {
-    --building-color1: #aa80ff;
-    --building-color2: #66cc99;
-    --building-color3: #cc6699;
-    --building-color4: #538cc6;
-    --window-color1: #bb99ff;
-    --window-color2: #8cd9b3;
-    --window-color3: #d98cb3;
-    --window-color4: #8cb3d9;
+    --building-color1: #ffaf80;
+    --building-color2: #fafa80;
+    --building-color3: #f47a2f;
+    --building-color4: #e0e252;
+    --window-color1: #fff599;
+    --window-color2: #d2acac;
+    --window-color3: #c54343;
+    --window-color4: #f0ca8d;
   }
   
   * {
