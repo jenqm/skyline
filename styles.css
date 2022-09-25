@@ -319,3 +319,26 @@
         );
     }
   }
+
+
+  @media (max-width: 740px) and (orientation: landscape) {
+    :root{
+      --building-color1: #ffaf80;
+      --building-color2: #fafa80;
+      --building-color3: #f47a2f;
+      --building-color4: #e0e252;
+      --window-color1: #fff599;
+      --window-color2: #d2acac;
+      --window-color3: #c54343;
+      --window-color4: #f0ca8d;
+    }
+    .sky{
+      background: radial-gradient(
+          closest-corner circle at 15% 15%,
+          #ffcf33,
+          #ffcf33 20%,
+          #ffff66 21%,
+          #bbeeff 100%
+        );
+    }
+  }
