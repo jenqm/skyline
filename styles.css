@@ -321,7 +321,7 @@
   }
 
 
-  @media (max-width: 740px) and (orientation: landscape) {
+  @media (max-width: 1000px) and (orientation: landscape) {
     :root{
       --building-color1: #ffaf80;
       --building-color2: #fafa80;
