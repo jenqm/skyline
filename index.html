@@ -82,5 +82,31 @@
       <div></div>
       <div></div>
     </div>
+    
+        <div class="popup">
+        <button id="close">&times;</button>
+        <h2>Welcome!</h2>
+        <p>
+          If you are viewing from a <b>pc</b>, please resize window
+        </p>
+        <p>
+          If you are viewing from a <b>phone</b>, flip horizontally
+        </p>
+    </div>
+
+    <script>
+      window.addEventListener("load", function(){
+          setTimeout(
+              function open(event){
+                  document.querySelector(".popup").style.display = "block";
+              },
+              950
+          )
+      });
+      document.querySelector("#close").addEventListener("click", function(){
+          document.querySelector(".popup").style.display = "none";
+      });
+    </script>
+    
   </body>
 </html>
