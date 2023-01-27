@@ -354,7 +354,8 @@
   }
   .popup{
       background-color: #ffffff;
-      width: 450px;
+      width: 25rem;
+      height: 13rem;
       padding: 20px 30px;
       position: absolute;
       transform: translate(-50%,-50%);
@@ -368,7 +369,7 @@
 
   .popup button{
       display: block;
-      margin:  0 0 20px auto;
+      margin:  0 0 0 auto;
       background-color: transparent;
       font-size: 30px;
       color: #c5c5c5;
@@ -379,6 +380,6 @@
   .popup p{
       font-size: 14px;
       text-align: center;
-      margin: 20px 0;
+      margin: 20px 10px;
       line-height: 25px;
   }
